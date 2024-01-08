@@ -19,7 +19,7 @@ export default function Player({initialName, Symbol, isActive, onChangeName}){
 
     let editableplayerName = <span className="player-name">{playerName}</span>;
     if(isEditing){
-        editableplayerName = <input type="text" required value={playerName} onChange={handleChange} />;
+        editableplayerName = <input type="text" maxLength={10} required value={playerName} onChange={handleChange} />;
     }
     return(
         <li className={isActive ? 'active' : undefined}>
