@@ -3,4 +3,4 @@ npm install
 npm run dev
 ```
 
-thats all it take to run it locally
+thats all it takes to run it locally
